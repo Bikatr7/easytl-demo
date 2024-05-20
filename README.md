@@ -1,4 +1,3 @@
-```markdown
 # EasyTL Use Case Demonstration
 
 ## This is a work in progress
@@ -34,4 +33,3 @@ In the root of `examples/`, you will find generic basic examples for each API. Y
 - `basic_x_example.py` - Demonstrates the basic functionality of EasyTL with each API (Gemini, OpenAI, Anthropic)
 - `json_gemini_example.py` - Demonstrates how to return a JSON response with EasyTL using the Gemini API
 - `json_openai_example.py` - Demonstrates how to return a JSON response with EasyTL using the OpenAI API
-```
