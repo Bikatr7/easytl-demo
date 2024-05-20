@@ -2,9 +2,9 @@ from easytl import EasyTL
 
 string = input("Enter the text you want to translate: ")
 model = "gemini-pro"
-instructions = "Translate to Japanese, informal casual, Young male speaker."
+instructions = "Translate to Japanese, formal polite, Young male speaker."
 
-with open("gemini.txt", "r") as file:
+with open("./gemini.txt", "r") as file:
     api_key = file.read()
 
 EasyTL.set_credentials(credentials=api_key, api_type="gemini")
