@@ -160,6 +160,6 @@ cython_debug/
 #.idea/
 
 ## api keys
-api_keys/anthropic.txt
-api_keys/openai.txt
-api_keys/gemini.txt
+anthropic.txt
+openai.txt
+gemini.txt
