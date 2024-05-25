@@ -29,7 +29,6 @@ with open("./gemini.txt", "r") as file:
 
 EasyTL.set_credentials(credentials=api_key, api_type="gemini")
 
-## Gemini's SDK and EasyTL both support the schema, but at the time of writing this their actual endpoint does not, in the future, it will follow the schema even with the undetailed instructions.
 result = EasyTL.gemini_translate(text=text_to_translate, model=model, translation_instructions=detailed_instructions, response_type="json", response_schema=schema)
 
 print(result)
