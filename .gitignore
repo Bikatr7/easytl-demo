@@ -163,3 +163,7 @@ cython_debug/
 anthropic.txt
 openai.txt
 gemini.txt
+deepl.txt
+
+## vscode
+.vscode/settings.json
