@@ -8,6 +8,7 @@
 - [Available Examples (More to come) ](#available-examples-more-to-come-)
   - [Basic Examples (in examples/)  ](#basic-examples-in-examples--)
   - [JSON Response Examples (in examples/structured\_json/) ](#json-response-examples-in-examplesstructured_json-)
+  - [Production code examples (in examples/production\_code/) ](#production-code-examples-in-examplesproduction_code-)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -64,3 +65,8 @@ In the root of `examples/`, you will find generic basic examples for each API. Y
 
 - `json_gemini_example.py` - Demonstrates how to return a JSON response with EasyTL using the Gemini API
 - `json_openai_example.py` - Demonstrates how to return a JSON response with EasyTL using the OpenAI API
+
+### Production code examples (in examples/production_code/) <a name="production-code-examples"></a>
+
+- `cost_estimate_example.py` - Showcases some production code found in [Kudasai](https://github.com/bikatr7/kudasai) that uses EasyTL to estimate the cost of a translation job.
+- `translation_example.py` - Showcases some production code found in [Kudasai](https://github.com/bikatr7/kudasai) that uses EasyTL to translate text.
