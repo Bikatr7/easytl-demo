@@ -11,3 +11,6 @@ EasyTL.set_credentials(credentials=api_key, api_type="deepl")
 result = EasyTL.deepl_translate(text=text_to_translate, target_lang=target_language)
 
 print(result)
+
+## example output:
+## 私は人間だと確信している。ロボットじゃない。私のことがわかりますか？

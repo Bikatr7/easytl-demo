@@ -12,3 +12,6 @@ EasyTL.set_credentials(credentials=api_key, api_type="gemini")
 result = EasyTL.gemini_translate(text=text_to_translate, model=model, translation_instructions=instructions)
 
 print(result)
+
+## example output:
+## 初めまして。私は武と申します。ソフトウェアエンジニアをしております。よろしくお願いいたします。

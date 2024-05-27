@@ -12,3 +12,6 @@ EasyTL.set_credentials(credentials=api_key, api_type="anthropic")
 result = EasyTL.anthropic_translate(text=text_to_translate, model=model, translation_instructions=instructions)
 
 print(result)
+
+## example output:
+## こんにちは、ローレンさん。私も一緒に実験を始めましょうか。頑張りましょうね
