@@ -6,7 +6,6 @@ The room was quiet and warm, filled with the soft hum of a distant lawnmower. It
 """
 
 model = "gemini-1.5-pro-latest"
-detailed_instructions = "Translate to Japanese, keep the existing tone. Make sure to structure the output into a json with the text to translation as `input` and the translated text as `output`."
 undetailed_instructions = "Translate to Japanese, keep the existing tone."
 
 schema = {
@@ -29,6 +28,6 @@ with open("./gemini.txt", "r") as file:
 
 EasyTL.set_credentials(credentials=api_key, api_type="gemini")
 
-result = EasyTL.gemini_translate(text=text_to_translate, model=model, translation_instructions=detailed_instructions, response_type="json", response_schema=schema)
+result = EasyTL.gemini_translate(text=text_to_translate, model=model, translation_instructions=undetailed_instructions, response_type="json", response_schema=schema)
 
 print(result)

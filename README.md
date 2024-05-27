@@ -68,5 +68,7 @@ In the root of `examples/`, you will find generic basic examples for each API. Y
 
 ### Production code examples (in examples/production_code/) <a name="production-code-examples"></a>
 
+These examples are not intended to be actually ran, but rather to showcase how EasyTL can be used in production code.
+
 - `cost_estimate_example.py` - Showcases some production code found in [Kudasai](https://github.com/bikatr7/kudasai) that uses EasyTL to estimate the cost of a translation job.
 - `translation_example.py` - Showcases some production code found in [Kudasai](https://github.com/bikatr7/kudasai) that uses EasyTL to translate text.
