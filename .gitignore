@@ -164,6 +164,7 @@ anthropic.txt
 openai.txt
 gemini.txt
 deepl.txt
+azure.txt
 
 ## vscode
 .vscode/settings.json
