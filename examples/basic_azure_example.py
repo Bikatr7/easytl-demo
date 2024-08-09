@@ -9,7 +9,7 @@ with open("./azure.txt", "r") as file:
 
 EasyTL.set_credentials(credentials=api_key, api_type="azure")
 
-is_valid, e = EasyTL.test_credentials("azure", "northcentralus")
+is_valid, e = EasyTL.test_credentials("azure", "northcentralus") 
 
 result = EasyTL.azure_translate(text=text_to_translate, target_lang=target_language, azure_region="northcentralus", azure_endpoint="https://api.cognitive.microsofttranslator.com")
 
